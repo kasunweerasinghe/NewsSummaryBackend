@@ -28,7 +28,7 @@ class SummaryRequest(BaseModel):
 
 class SummaryResponse(BaseModel):
     summary: str
-    translated_summary: str 
+    translated_summary: str
     title: str
     author: str
     publication_date: str
